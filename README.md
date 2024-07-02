@@ -1,1 +1,1 @@
-# atlas-smiling-school
+Smiling School - Responsive Bootstrap project
