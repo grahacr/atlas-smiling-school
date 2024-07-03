@@ -1,6 +1,21 @@
+header img {
+  min-width: 150px;
+}
+
 header {
   background-image: url("./static/images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
+}
+
+.header h1 {
+  font-size: 120px;
+  font-weight: 700px;
+  color: #FFFFFF;
+}
+
+.header p {
+  color: #FFFFFF;
+
 }
