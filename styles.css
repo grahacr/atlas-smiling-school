@@ -38,12 +38,14 @@ html {
 
 header img {
   min-width: 150px;
+  max-height: 1440px;
 }
 
 header {
   background-image: url("./static/images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1093px;
 }
 
 .header h1 {

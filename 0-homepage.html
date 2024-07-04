@@ -20,68 +20,75 @@
 
   <!-- Header section-->
    <!--d-none d-md-block, d-sm-block -->
-  <header class="container-fluid">
-    <div class="d-flex align-items-center justify-content-around justify-content-md-between pt-4 navbar navbar-expand-md px-5">
-        <a href="0-homepage.html" class="text-center">
-          <img id="logo" src="static/images/logo.png" alt="logo" class="img-fluid px-5">
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a href="0-homepage.html" class="navbar-brand">
+          <img id="logo" src="static/images/logo.png" alt="logo" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="toggle navigation">
           <span class="holberton_school-icon-menu"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navBar">
-          <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navBar">
+          <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white text-center p-3">COURSES</a>
+              <a href="#" class="nav-link font-12 text-white">COURSES</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white text-center p-3">PRICING</a>
+              <a href="#" class="nav-link font-12 text-white">PRICING</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white text-center p-3">LOGIN</a>
+              <a href="#" class="nav-link font-12 text-white">LOGIN</a>
             </li>
           </ul>
         </div>
       </div>
+    </nav>
 
     <!-- Banner section -->
-     <section class="container-fluid d-flex flex-column align-items-center">
-      <div class="m-3">
-        <h1 class="text-white mt-3 d-flex no-wrap font-120">Get schooled</h1>
-        <div class="d-flex flex-row justify-content-around px-5">
-          <p class="text-white">SMILES</p>
-          <p class="text-white">GRIN</p>
-          <p class="text-white">LAUGH</p>
-        </div>
-      </div>
-      <button type="button" class="btn rounded-pill" style="background-color:#C271FF">REGISTER FOR FREE</button>
-
-      <!--pros section-->
-      <div class="d-flex flex-column align-items-center">
-        <h2 class="m-5"><span><b>Learn </b></span>from the pros</h2>
-        <div class="d-flex flex-row justify-content-md-between flex-wrap">
-
-          <div class="col-sm-6 col-md-6 col-lg-2">
-            <img class="img-fluid" src="./static/images/pro1.png">
-            <h3 class="text-white text-18">Phillip Massey</h3>
-            <p class="text-16 text-white"><i>« Smile of the year »</i></p>
-            <p class="text-16 text-white"><i>2018-2019</i></p>
+    <section class="banner text-center">
+      <div class="container-fluid">
+        <h1 class="text-white mt-3 font-120">Get schooled</h1>
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <p class="text-white">SMILES</p>
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-md-3">
+            <p class="text-white">GRIN</p>
+          </div>
+          <div class="col-md-3">
+            <p class="text-white">LAUGH</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-lg rounded-pill" style="background-color:#C271FF">REGISTER FOR FREE</button>
+        </div>
+        </section>
+      <!--pros section-->
+      <section class="pros text-center">
+        <div class="container-fluid">
+          <h2 class="mt-5"><span><b>Learn </b></span>from the pros</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3">
+              <img class="img-fluid" src="./static/images/pro1.png">
+              <h3 class="text-white text-18">Phillip Massey</h3>
+              <p class="text-16 text-white"><i>« Smile of the year »</i></p>
+              <p class="text-16 text-white"><i>2018-2019</i></p>
+          </div>
+          <div class="col-md-6 col-lg-3">
             <img class="img-fluid" src="./static/images/pro2.png">
             <h3 class="text-white text-18">Nannie Lawrence</h3>
             <p class="text-16 text-white"><i>Best « little smile »</i></p>
             <p class="text-16 text-white"><i>2017</i></p>
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-md-6 col-lg-3">
             <img class="img-fluid" src="./static/images/pro3.png">
             <h3 class="text-white text-18">Bruce Walters</h3>
             <p class="text-16 text-white"><i>Best « Friend Smile »</i></p>
             <p class="text-16 text-white"><i>live performance 2019</i></p>
           </div>
 <!--col-sm-6 col-md-6 col-lg-2-->
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-md-6 col-lg-3">
             <img class="img-fluid" src="./static/images/pro4.png">
             <h3 class="text-white text-18">Henry Hughes</h3>
             <p class="text-white text-16"><i> « 24h smiles » winner</i></p>
@@ -97,25 +104,17 @@
     <!-- testimonial -->
      <!--d-flex flex-row align-items-center justify-content-around -->
     <section class="testimonial">
-      <div class="container">
-        <div id="testimonialcarousel" class="carousel slide pointer-event align-items-center" data-bs-ride="carousel">
-          <div class="carousel-arrows z-0">
-            <button type="button" data-bs-target="#testimonialcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimony 1">
-              <img src="./static/images/arrow_white_left.png" alt="indicator 1">
-            </button>
-            <button type="button" data-bs-target="#testimonialcarousel" data-bs-slide-to="1" aria-label="Testimony 2">
-              <img src="./static/images/arrow_white_right.png" alt="indicator 2">
-            </button>
-          </div>
+      <div class="container-fluid">
+        <div id="testimonialcarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="d-flex row align-items-center">
+              <div class="row align-items-center">
                 <div class="col-md-6">
-                  <img src="./static/images/testimonial_guy.png" class="d-block" alt="quote alt text">
+                  <img src="./static/images/testimonial_guy.png" class="d-block img-fluid" alt="quote alt text">
                 </div>
-                <div class="carousel-caption d-md-block text-center">
-                  <blockquote>«Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
-                  <div>
+                <div class="col-md-6">
+                  <blockquote class="text-center">«Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
+                  <div class="text-center">
                     <span>Person name</span>
                     <p><em>weather presenter</em></p>
                   </div>
@@ -123,13 +122,13 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="d-flex row align-items-center">
-                <div class="col-md-6">
-                  <img src="./static/images/testimonial_guy.png" class="d-block" alt="quote alt text">
-                </div>
-                <div class="carousel-caption d-md-block text-center">
-                  <blockquote class="mb-3"> « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!            </blockquote>
-                  <div>
+              <div class="row align-items-center">
+              <div class="col-md-6">
+                <img src="./static/images/testimonial_guy.png" class="d-block img-fluid" alt="quote alt text">
+              </div>
+              <div class="col-md-6">
+                <blockquote class="text-center">«Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
+                  <div class="text-center">
                     <span>Person name</span>
                     <p><em>weather presenter</em></p>
                   </div>
@@ -137,28 +136,38 @@
               </div>
             </div>
           </div>
+            <!--button controls-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialcarousel" data-bs-slide="prev">
+              <img src="./static/images/arrow_white_left.png" alt="Prev">
+              <span class="visually-hidden">Prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialcarousel" data-bs-slide="next">
+              <img src="./static/images/arrow_white_right.png" alt="Next">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
 
     <!--most popular tutorials 1st carousel section-->
-    <section class="p-4">
-      <div class="container d-flex flex-column align-items-center justify-content-center">
+    <section class="popular-tutorials p-4">
+      <div class="container">
         <h1 class="text-center mb-5">Most <span>popular </span>tutorials</h1>
-        <div class="d-flex flex-row">
+        <div class="row justify-content-center">
         <!--first tutorial-->
-        <div class="d-flex flex-column position-relative">
-          <div class="">
+          <div class="col-lg-3 col-md-6">
+            <div>
             <img src="./static/images/smile-diagonal.jpg" alt="diagonal smile" class="img-fluid z-0 position-absolute">
             <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
-          </div>
-          <div class="">
-            <h2>Diagonal Smile</h2>
-            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-            <div class="review">
-              <img src="./static/images/tiny_pro1.png" alt="reviewguy">
-              <h3>Phillip Massey</h3>
             </div>
+            <div>
+              <h2>Diagonal Smile</h2>
+              <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+              <div>
+                <img src="./static/images/tiny_pro1.png" alt="reviewguy">
+                <h3>Phillip Massey</h3>
+              </div>
             <div class="stars">
               <img src="./static/images/star_on.png" alt="1 star">
               <img src="./static/images/star_on.png" alt="2 star">
@@ -170,8 +179,8 @@
           </div>
         </div>
         <!--second tutorial-->
-        <div class="d-flex flex-column position-relative">
-          <div class="">
+        <div class="col-lg-3 col-md-6">
+          <div>
             <img src="./static/images/smile-sad.jpg" alt="sad smile" class="img-fluid z-0 position-absolute">
             <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
           </div>
@@ -193,7 +202,7 @@
         </div>
       </div>
       <!--third tutorial-->
-        <div class="d-flex flex-column position-relative">
+        <div class="col-lg-3 col-md-6">
           <div>
             <img src="./static/images/smile-natural.jpg" alt="natural smile" class="img-fluid z-0 position-absolute">
             <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
@@ -216,7 +225,7 @@
           </div>
         </div>
         <!--fourth tutorial-->
-        <div class="d-flex flex-column position-relative">
+        <div class="col-lg-3 col-md-6">
           <div>
             <img src="./static/images/smile-happy.jpg" alt="happy smile" class="img-fluid z-0 position-absolute">
             <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
@@ -242,25 +251,26 @@
     </div>
     </section>
     <!-- membership section -->
-    <section class="membership p-5 d-flex flex-column align-items-center justify-content-center">
-      <h1 class="text-white font-32"><span>Free</span> membership</h1>
-      <div class="d-flex flex-row justify-content-md-between p-2">
-        <div class="option">
+    <section class="membership p-5 text-center">
+      <div class="container">
+        <h1 class="text-white font-32"><span>Free</span> membership</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4">
+            <img src="./static/images/smile_on.png" alt="icon1">
+            <h2 class="text-white font-18">Lorem ipsum</h2>
+            <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="col-md-3 mb-4">
           <img src="./static/images/smile_on.png">
           <h2 class="text-white font-18">Lorem ipsum</h2>
           <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="option">
+        <div class="col-md-3 mb-4">
           <img src="./static/images/smile_on.png">
           <h2 class="text-white font-18">Lorem ipsum</h2>
           <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="option">
-          <img src="./static/images/smile_on.png">
-          <h2 class="text-white font-18">Lorem ipsum</h2>
-          <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="option">
+        <div class="col-md-3 mb-4">
           <img src="./static/images/smile_on.png">
           <h2 class="text-white font-18">Lorem ipsum</h2>
           <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
