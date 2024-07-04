@@ -1,4 +1,6 @@
-
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 header img {
   min-width: 150px;
