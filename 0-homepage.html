@@ -19,10 +19,11 @@
 <body>
 
   <!-- Header section-->
-  <header class="header container-fluid">
-    <div class="d-flex align-items-center justify-content-around justify-content-md-between pt-4 navbar navbar-expand-md">
+   <!--d-none d-md-block, d-sm-block -->
+  <header class="container-fluid">
+    <div class="d-flex align-items-center justify-content-around justify-content-md-between pt-4 navbar navbar-expand-md px-5">
         <a href="0-homepage.html" class="text-center">
-          <img id="logo" src="static/images/logo.png" alt="logo" class="img-fluid">
+          <img id="logo" src="static/images/logo.png" alt="logo" class="img-fluid px-5">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="toggle navigation">
           <span class="holberton_school-icon-menu"></span>
@@ -30,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navBar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link text-white text-center">COURSES</a>
+              <a href="#" class="nav-link font-12 text-white text-center p-3">COURSES</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-white text-center">PRICING</a>
+              <a href="#" class="nav-link font-12 text-white text-center p-3">PRICING</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-white text-center">LOGIN</a>
+              <a href="#" class="nav-link font-12 text-white text-center p-3">LOGIN</a>
             </li>
           </ul>
         </div>
@@ -45,46 +46,46 @@
     <!-- Banner section -->
      <section class="container-fluid d-flex flex-column align-items-center">
       <div class="m-3">
-        <h1 class="text-white mt-3 d-flex no-wrap">Get schooled</h1>
-        <div class="d-flex flex-row justify-content-around pr-5 pl-5">
-          <p>SMILES</p>
-          <p>GRIN</p>
-          <p>LAUGH</p>
+        <h1 class="text-white mt-3 d-flex no-wrap font-120">Get schooled</h1>
+        <div class="d-flex flex-row justify-content-around px-5">
+          <p class="text-white">SMILES</p>
+          <p class="text-white">GRIN</p>
+          <p class="text-white">LAUGH</p>
         </div>
       </div>
       <button type="button" class="btn rounded-pill" style="background-color:#C271FF">REGISTER FOR FREE</button>
 
       <!--pros section-->
-      <div class="container-fluid d-flex flex-column align-items-center">
+      <div class="d-flex flex-column align-items-center">
         <h2 class="m-5"><span><b>Learn </b></span>from the pros</h2>
         <div class="d-flex flex-row justify-content-md-between flex-wrap">
 
-          <div class="container col-sm-6 col-md-6 col-lg-2">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <img class="img-fluid" src="./static/images/pro1.png">
-            <h3 class="text-white">Phillip Massey</h3>
-            <p><i>« Smile of the year »</i></p>
-            <p><i>2018-2019</i></p>
+            <h3 class="text-white text-18">Phillip Massey</h3>
+            <p class="text-16 text-white"><i>« Smile of the year »</i></p>
+            <p class="text-16 text-white"><i>2018-2019</i></p>
           </div>
 
-          <div class="container col-sm-6 col-md-6 col-lg-2">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <img class="img-fluid" src="./static/images/pro2.png">
-            <h3 class="text-white">Nannie Lawrence</h3>
-            <p><i>Best « little smile »</i></p>
-            <p><i>2017</i></p>
+            <h3 class="text-white text-18">Nannie Lawrence</h3>
+            <p class="text-16 text-white"><i>Best « little smile »</i></p>
+            <p class="text-16 text-white"><i>2017</i></p>
           </div>
 
-          <div class="container col-sm-6 col-md-6 col-lg-2">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <img class="img-fluid" src="./static/images/pro3.png">
-            <h3 class="text-white">Bruce Walters</h3>
-            <p><i>Best « Friend Smile »</i></p>
-            <p><i>live performance 2019</i></p>
+            <h3 class="text-white text-18">Bruce Walters</h3>
+            <p class="text-16 text-white"><i>Best « Friend Smile »</i></p>
+            <p class="text-16 text-white"><i>live performance 2019</i></p>
           </div>
 <!--col-sm-6 col-md-6 col-lg-2-->
-          <div class="container col-sm-6 col-md-6 col-lg-2">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <img class="img-fluid" src="./static/images/pro4.png">
-            <h3 class="text-white">Henry Hughes</h3>
-            <p><i> « 24h smiles » winner</i></p>
-            <p><i>2016-2019</i></p>
+            <h3 class="text-white text-18">Henry Hughes</h3>
+            <p class="text-white text-16"><i> « 24h smiles » winner</i></p>
+            <p class="text-white text-16"><i>2016-2019</i></p>
           </div>
         </div>
       </div>
@@ -140,7 +141,7 @@
       </div>
     </section>
 
-    <!--videos section-->
+    <!--most popular tutorials 1st carousel section-->
     <section class="p-4">
       <div class="container d-flex flex-column align-items-center justify-content-center">
         <h1 class="text-center mb-5">Most <span>popular </span>tutorials</h1>
@@ -241,56 +242,132 @@
     </div>
     </section>
     <!-- membership section -->
-    <section class="membership d-flex flex-column align-items-center justify-content-center">
-      <h1 class="text-white"><span>Free</span> membership</h1>
+    <section class="membership p-5 d-flex flex-column align-items-center justify-content-center">
+      <h1 class="text-white font-32"><span>Free</span> membership</h1>
       <div class="d-flex flex-row justify-content-md-between p-2">
         <div class="option">
           <img src="./static/images/smile_on.png">
-          <h2 class="text-white">Lorem ipsum</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 class="text-white font-18">Lorem ipsum</h2>
+          <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="option">
           <img src="./static/images/smile_on.png">
-          <h2 class="text-white">Lorem ipsum</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 class="text-white font-18">Lorem ipsum</h2>
+          <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="option">
           <img src="./static/images/smile_on.png">
-          <h2 class="text-white">Lorem ipsum</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 class="text-white font-18">Lorem ipsum</h2>
+          <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="option">
           <img src="./static/images/smile_on.png">
-          <h2 class="text-white">Lorem ipsum</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 class="text-white font-18">Lorem ipsum</h2>
+          <p class="text-white font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <button>REGISTER FOR FREE</button>
     </section>
 
-    <!-- FAQ Container -->
-    <section class="faq-container">
-      <h1>F.A.Q.</h1>
-      <div class="qa-left">
-        <div class="qa">
-          <h2>How does this work?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!--latest videos 2nd carousel section-->
+    <section class="p-4">
+      <div class="container d-flex flex-column align-items-center justify-content-center">
+        <h1 class="text-center mb-5"><span>Latest </span>videos</h1>
+        <div class="d-flex flex-row">
+        <!--first tutorial-->
+        <div class="d-flex flex-column position-relative">
+          <div class="">
+            <img src="./static/images/smile-diagonal.jpg" alt="diagonal smile" class="img-fluid z-0 position-absolute">
+            <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
+          </div>
+          <div class="">
+            <h2>Diagonal Smile</h2>
+            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+            <div class="review">
+              <img src="./static/images/tiny_pro1.png" alt="reviewguy">
+              <h3>Phillip Massey</h3>
+            </div>
+            <div class="stars">
+              <img src="./static/images/star_on.png" alt="1 star">
+              <img src="./static/images/star_on.png" alt="2 star">
+              <img src="./static/images/star_on.png" alt="3 star">
+              <img src="./static/images/star_on.png" alt="4 star">
+              <img src="./static/images/star_off.png" alt="empty star">
+            </div>
+            <p>8 min</p>
+          </div>
         </div>
-        <div class="qa">
-          <h2>How does this work?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!--second tutorial-->
+        <div class="d-flex flex-column position-relative">
+          <div class="">
+            <img src="./static/images/smile-sad.jpg" alt="sad smile" class="img-fluid z-0 position-absolute">
+            <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
+          </div>
+          <div class="">
+            <h2>Sad Smile</h2>
+            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+            <div class="review">
+              <img src="./static/images/tiny_pro1.png" alt="reviewguy">
+              <h3>Phillip Massey</h3>
+            </div>
+          <div class="stars">
+            <img src="./static/images/star_on.png" alt="1 star">
+            <img src="./static/images/star_on.png" alt="2 star">
+            <img src="./static/images/star_on.png" alt="3 star">
+            <img src="./static/images/star_on.png" alt="4 star">
+            <img src="./static/images/star_off.png" alt="empty star">
+        </div>
+          <p>8 min</p>
         </div>
       </div>
-      <div class="qa-right">
-        <div class="qa">
-          <h2>How does this work?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <!--third tutorial-->
+        <div class="d-flex flex-column position-relative">
+          <div>
+            <img src="./static/images/smile-natural.jpg" alt="natural smile" class="img-fluid z-0 position-absolute">
+            <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
+          </div>
+          <div class="tutorialtext">
+            <h2>Natural Smile</h2>
+            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+            <div class="review">
+              <img src="./static/images/tiny_pro1.png" alt="reviewguy">
+              <h3>Phillip Massey</h3>
+            </div>
+            <div class="stars">
+              <img src="./static/images/star_on.png" alt="1 star">
+              <img src="./static/images/star_on.png" alt="2 star">
+              <img src="./static/images/star_on.png" alt="3 star">
+              <img src="./static/images/star_on.png" alt="4 star">
+              <img src="./static/images/star_off.png" alt="empty star">
+            </div>
+            <p>8 min</p>
+          </div>
         </div>
-        <div class="qa">
-          <h2>How does this work?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!--fourth tutorial-->
+        <div class="d-flex flex-column position-relative">
+          <div>
+            <img src="./static/images/smile-happy.jpg" alt="happy smile" class="img-fluid z-0 position-absolute">
+            <img src="./static/images/play.png" alt="play button" class="z-1 position-absolute">
+          </div>
+          <div class="tutorialtext">
+            <h2>Happy Smile</h2>
+            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+            <div class="review">
+              <img src="./static/images/tiny_pro1.png" alt="reviewguy">
+              <h3>Phillip Massey</h3>
+            </div>
+            <div class="stars">
+              <img src="./static/images/star_on.png" alt="1 star">
+              <img src="./static/images/star_on.png" alt="2 star">
+              <img src="./static/images/star_on.png" alt="3 star">
+              <img src="./static/images/star_on.png" alt="4 star">
+              <img src="./static/images/star_off.png" alt="empty star">
+            </div>
+            <p>8 min</p>
+          </div>
         </div>
       </div>
+    </div>
     </section>
   </main>
   <footer>
