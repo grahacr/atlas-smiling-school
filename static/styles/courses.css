@@ -59,6 +59,12 @@ header {
 .search {
   background-color: #C271FF;
 }
+
+.search ul {
+  width: 350px;
+}
+
+
 .btn:hover, .btn:active {
   opacity: 0.9;
 }
