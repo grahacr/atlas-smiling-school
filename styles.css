@@ -75,7 +75,9 @@ header {
   opacity: 0.9;
 }
 
-
+footer {
+  background-color: #071629;
+}
 
 /* <!-- FAQ Container -->
     <section class="faq-container">

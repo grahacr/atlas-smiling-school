@@ -1,0 +1,60 @@
+@import url("style.css");
+
+/* font sizes */
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-120 {
+  font-size: 120px
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-44 {
+  font-size: 44px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+  background-image: url("../images/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1093px;
+  align-self: center;
+}
+
+.btn {
+  background-color: #C271FF;
+}
