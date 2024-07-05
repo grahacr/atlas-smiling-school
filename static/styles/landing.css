@@ -51,6 +51,7 @@ header {
   background-image: url("../images/bg-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 1093px;
   align-self: center;
 }
