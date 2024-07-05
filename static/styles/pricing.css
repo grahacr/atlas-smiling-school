@@ -59,3 +59,17 @@ header {
 .btn {
   background-color: #C271FF;
 }
+
+.testimonial {
+  background-color: #C271FF;
+  height: 392px;
+}
+
+
+footer {
+  background-color: #071629;
+}
+
+.btn:hover, .btn:active {
+  opacity: 0.9;
+}
