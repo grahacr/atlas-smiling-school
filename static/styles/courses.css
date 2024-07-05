@@ -1,4 +1,4 @@
-@import url("./static/styles/style.css");
+@import url("style.css");
 
 /* font sizes */
 
@@ -34,48 +34,31 @@
   font-size: 32px;
 }
 
+.font-44 {
+  font-size: 44px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-header img {
-  min-width: 150px;
-  max-height: 1440px;
-}
 
 header {
-  background-image: url("../images/bg-1.jpg");
+  background-image: url("../images/bg-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   align-self: center;
-  height: 1093px;
+  height: 216px
 }
 
-.header h1 {
-  font-size: 120px;
-  font-weight: 700px;
-  color: #FFFFFF;
-}
-
-.header p {
-  color: #FFFFFF;
-
-}
-
-.testimonial {
+.search {
   background-color: #C271FF;
-  height: 392px;
 }
-
-.membership {
-  background-color: #071629;
-  height: 502px;
-}
-
 .btn:hover, .btn:active {
   opacity: 0.9;
-}
-
-footer {
-  background-color: #071629;
 }
