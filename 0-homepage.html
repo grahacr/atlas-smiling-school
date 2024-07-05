@@ -14,6 +14,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./static/styles/style.scss">
   </head>
 <body>
 
@@ -26,18 +27,18 @@
           <img id="logo" src="static/images/logo.png" alt="logo" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="toggle navigation">
-          <span class="holberton_school-icon-menu"></span>
+          <span class="holberton_school-icon-menu text-white"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navBar">
           <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white">COURSES</a>
+              <a href="0-homepage.html" class="nav-link font-12 text-white">COURSES</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white">PRICING</a>
+              <a href="0-homepage.html" class="nav-link font-12 text-white">PRICING</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link font-12 text-white">LOGIN</a>
+              <a href="0-homepage.html" class="nav-link font-12 text-white">LOGIN</a>
             </li>
           </ul>
         </div>
@@ -45,8 +46,8 @@
     </nav>
 
     <!-- Banner section -->
-    <section class="banner text-center">
-      <div class="container-fluid">
+    <section class="banner text-center py-5">
+      <div class="container">
         <h1 class="text-white mt-3 font-120">Get schooled</h1>
         <div class="row justify-content-around">
           <div class="col-md-3">
@@ -63,31 +64,31 @@
         </div>
         </section>
       <!--pros section-->
-      <section class="pros text-center">
-        <div class="container-fluid">
+      <section class="pros text-center py-5">
+        <div class="container">
           <h2 class="mt-5"><span><b>Learn </b></span>from the pros</h2>
           <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-4">
               <img class="img-fluid" src="./static/images/pro1.png">
               <h3 class="text-white text-18">Phillip Massey</h3>
               <p class="text-16 text-white"><i>« Smile of the year »</i></p>
               <p class="text-16 text-white"><i>2018-2019</i></p>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-4">
             <img class="img-fluid" src="./static/images/pro2.png">
             <h3 class="text-white text-18">Nannie Lawrence</h3>
             <p class="text-16 text-white"><i>Best « little smile »</i></p>
             <p class="text-16 text-white"><i>2017</i></p>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-4">
             <img class="img-fluid" src="./static/images/pro3.png">
             <h3 class="text-white text-18">Bruce Walters</h3>
             <p class="text-16 text-white"><i>Best « Friend Smile »</i></p>
             <p class="text-16 text-white"><i>live performance 2019</i></p>
           </div>
 <!--col-sm-6 col-md-6 col-lg-2-->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-4">
             <img class="img-fluid" src="./static/images/pro4.png">
             <h3 class="text-white text-18">Henry Hughes</h3>
             <p class="text-white text-16"><i> « 24h smiles » winner</i></p>
@@ -102,8 +103,8 @@
 
     <!-- testimonial -->
      <!--d-flex flex-row align-items-center justify-content-around -->
-    <section class="testimonial">
-      <div class="container-fluid">
+    <section class="testimonial py-5">
+      <div class="container">
         <div id="testimonialcarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner text-white">
             <div class="carousel-item active">
@@ -143,7 +144,7 @@
 
 
     <!--most popular tutorials 1st carousel section-->
-    <section class="popular-tutorials p-4">
+    <section class="popular-tutorials py-5">
       <div class="container">
         <h1 class="text-center mb-5">Most <span>popular </span>tutorials</h1>
         <div class="row justify-content-center">
@@ -243,7 +244,7 @@
     </div>
     </section>
     <!-- membership section -->
-    <section class="membership p-5 text-center">
+    <section class="membership py-5 text-center">
       <div class="container">
         <h1 class="text-white font-32"><span>Free</span> membership</h1>
         <div class="row justify-content-center">
@@ -272,8 +273,8 @@
     </section>
 
     <!--latest videos 2nd carousel section-->
-    <section class="p-4">
-      <div class="container d-flex flex-column align-items-center justify-content-center">
+    <section class="latest-videos py-5">
+      <div class="container">
         <h1 class="text-center mb-5"><span>Latest </span>videos</h1>
         <div class="d-flex flex-row">
         <!--first tutorial-->
