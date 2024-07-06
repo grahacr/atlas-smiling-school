@@ -1,4 +1,4 @@
-@import url("./static/styles/style.css");
+@import url("./style.css");
 
 /* font sizes */
 
@@ -38,21 +38,15 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-body {
-  width: 100vw;
-}
-
 header img {
-  min-width: 150px;
   max-height: 1440px;
+  align-self: center;
 }
 
 header {
   background-image: url("../images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  align-self: center;
-  height: 1093px;
 }
 
 .header h1 {
@@ -63,8 +57,6 @@ header {
 
 .header p {
   color: #FFFFFF;
-  width: 100vw;
-
 }
 
 .testimonial {
@@ -76,18 +68,16 @@ header {
   width: 255px;
 }
 
-.popular-tutorials span{
+.popular-tutorials span {
   color: #C271FF;
 }
 .popular-tutorials .card .play-button {
   width: 64px;
 }
 
-
 .membership {
   background-color: #071629;
   height: 502px;
-  
 }
 
 .btn:hover, .btn:active {
