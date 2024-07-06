@@ -47,15 +47,17 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
 }
+
 header {
   background-image: url("../images/bg-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   align-self: center;
-  height: 216px
+  height: 216px;
+  width: 100vw;
 }
 
 .search {
@@ -83,14 +85,16 @@ header {
   border-color: white;
 }
 
-.latest-videos .smile-pic img {
-  width: 255px;
+#videos-section {
+  padding: 50px 0;
 }
 
-.latest-videos .smile-pic .z-1 {
-  width: 64px;
+.card {
+  border: none;
+  box-shadow: none;
 }
 
 footer {
   background-color: #071629;
+  width: 100vw;
 }
