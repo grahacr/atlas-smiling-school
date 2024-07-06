@@ -46,7 +46,9 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+body {
+  width: 100%;
+}
 header {
   background-image: url("../images/bg-3.jpg");
   background-repeat: no-repeat;
@@ -67,4 +69,24 @@ header {
 
 .btn:hover, .btn:active {
   opacity: 0.9;
+}
+
+.search .dropdown-item:hover {
+  color: #C271FF;
+}
+
+.search .input-group, .search .btn-secondary, .search .dropdown-toggle {
+  width: 350px;
+  background-color: white;
+  opacity: 0.25;
+  color: black;
+  border-color: white;
+}
+
+.latest-videos .smile-pic img {
+  width: 255px;
+}
+
+.latest-videos .smile-pic .z-1 {
+  width: 64px;
 }
