@@ -38,6 +38,9 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  width: 100vw;
+}
 header img {
   max-height: 1440px;
   align-self: center;
