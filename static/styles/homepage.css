@@ -38,6 +38,10 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  width: 100vw;
+}
+
 header img {
   min-width: 150px;
   max-height: 1440px;
@@ -59,6 +63,7 @@ header {
 
 .header p {
   color: #FFFFFF;
+  width: 100vw;
 
 }
 
@@ -67,15 +72,44 @@ header {
   height: 392px;
 }
 
+.popular-tutorials .card .card-img.top {
+  width: 255px;
+}
+
+.popular-tutorials span{
+  color: #C271FF;
+}
+.popular-tutorials .card .play-button {
+  width: 64px;
+}
+
+
 .membership {
   background-color: #071629;
   height: 502px;
+  
 }
 
 .btn:hover, .btn:active {
   opacity: 0.9;
 }
 
+.card {
+  border: none;
+  box-shadow: none;
+}
+.latest-videos .card .card-img.top {
+  width: 255px;
+}
+
+.latest-videos span{
+  color: #C271FF;
+}
+.latest-videos .card .play-button {
+  width: 64px;
+}
+
 footer {
   background-color: #071629;
+  width: 100vw;
 }
