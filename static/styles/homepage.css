@@ -50,6 +50,7 @@ header {
   background-image: url("../images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .header h1 {
@@ -62,6 +63,13 @@ header {
   color: #FFFFFF;
 }
 
+.pros span {
+  color: #C271FF;
+}
+
+.banner .btn {
+  background-color: #C271FF;
+}
 .testimonial {
   background-color: #C271FF;
   height: 392px;
