@@ -65,9 +65,22 @@ header {
   height: 392px;
 }
 
+.table .border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 
 footer {
   background-color: #071629;
+  width: 100vw;
+  height: 249px;
+}
+
+footer p {
+  opacity: 35%;
+}
+
+footer .logo {
+  width: 169px;
 }
 
 .btn:hover, .btn:active {
