@@ -100,7 +100,35 @@ header {
 .latest-videos .card .play-button {
   width: 64px;
 }
+.popular-tutorials .card .card-img-top {
+  max-width: 255px;
+}
+
+.popular-tutorials .card h2 {
+  font-weight: 700px;
+}
+.popular-tutorials span {
+  color: #C271FF;
+}
+.popular-tutorials .card .play-button {
+  width: 64px;
+}
+
+.stars img {
+  width: 15px;
+}
+
+
 footer {
   background-color: #071629;
   width: 100vw;
+  height: 249px;
+}
+
+footer p {
+  opacity: 35%;
+}
+
+footer .logo {
+  width: 169px;
 }
