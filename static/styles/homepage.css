@@ -75,10 +75,13 @@ header {
   height: 392px;
 }
 
-.popular-tutorials .card .card-img.top {
-  width: 255px;
+.popular-tutorials .card .card-img-top {
+  max-width: 255px;
 }
 
+.popular-tutorials .card h2 {
+  font-weight: 700px;
+}
 .popular-tutorials span {
   color: #C271FF;
 }
@@ -86,9 +89,18 @@ header {
   width: 64px;
 }
 
+.stars img {
+  width: 15px;
+}
+
+
 .membership {
   background-color: #071629;
   height: 502px;
+}
+
+.membership button {
+  background-color: #C271FF;
 }
 
 .btn:hover, .btn:active {
@@ -99,8 +111,8 @@ header {
   border: none;
   box-shadow: none;
 }
-.latest-videos .card .card-img.top {
-  width: 255px;
+.latest-videos .card .card-img-top {
+  max-width: 255px;
 }
 
 .latest-videos span{
@@ -113,4 +125,13 @@ header {
 footer {
   background-color: #071629;
   width: 100vw;
+  height: 249px;
+}
+
+footer p {
+  opacity: 35%;
+}
+
+footer .logo {
+  width: 169px;
 }
